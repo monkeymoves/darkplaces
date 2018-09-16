@@ -11,7 +11,7 @@
 
 <body>
   <div class="header">
-    <!-- <a href="/index.html"><img src="./img/dsw.jpg" alt="logo" /></a> -->
+    <a href="/index.html"><img src="./img/dsw.jpg" alt="logo" /></a>
     <a href="#default" class="logo">Dark Sky Wales Locations</a>
     <div class="header-right">
       <a class="active" href="#home">Home</a>
@@ -314,19 +314,17 @@
         zoom: 8.2,
         center: new google.maps.LatLng(52.2, -3.6),
         mapTypeControl: false,
-
+        streetViewControl: false,
+        zoomControl: true,
+        zoomControlOptions: {
+            position: google.maps.ControlPosition.TOP_LEFT
+        },
         // mapTypeControlOptions: {
         //   style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
         //   position: google.maps.ControlPosition.TOP_LEFT,
         // },
-        streetViewControl: false,
         // mapTypeId: 'terrain',
-        zoomControl: true,
-    zoomControlOptions: {
-        position: google.maps.ControlPosition.TOP_LEFT
-    },
       });
-
       // Create a <script> tag and set the data as the source.
       var script = document.createElement('script');
       script.src = 'data.js';
@@ -357,8 +355,8 @@
             /*Bootstrap Modal Pop Up Open Code*/
             $(".modal-title").text(name);
             $(".modal-body").text("This site has the viewing class of " + siteClass);
-            $("#myModal1").text(webby);
-
+            $(".modal-body").append('</br></br>'+ description);
+            $(".modal-body").append('</br></br> <a href=' +'"'+ webby +'"' + '>Visit Site    </a>'+webby);
             $("#myModal").modal('show');
           }
         })(marker));

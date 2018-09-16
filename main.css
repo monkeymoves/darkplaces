@@ -10,18 +10,12 @@
     margin: 0;
     padding: 0;
   }
-
-  #myModal {
-    /* white-space: pre-line; */
-    margin: 0;
-    padding: 0;
-  }
-
+  
   .header {
     overflow: hidden;
     background-color: rgba(0, 86, 122, 0.418);
     padding: 10px 0px;
-
+    
     
   }
   .button {
@@ -40,7 +34,7 @@
   
   .header a.logo {
     font-size: 25px;
-    color: grey;
+    color: #013B54;
    
     font-weight: bold;
   }
@@ -69,3 +63,13 @@
       float: none;
     }
   }
+  
+ 
+
+    .modal {
+
+      /* other stuff we already covered */
+    
+      max-width: 100%;
+      
+    }

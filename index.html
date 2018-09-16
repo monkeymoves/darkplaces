@@ -6,13 +6,13 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  
+
 </head>
 
 <body>
   <div class="header">
     <!-- <a href="/index.html"><img src="./img/dsw.jpg" alt="logo" /></a> -->
-    <a href="#default" class="logo"></a>
+    <a href="#default" class="logo">Dark Sky Wales Locations</a>
     <div class="header-right">
       <a class="active" href="#home">Home</a>
       <a href="#weather">Weather</a>
@@ -28,10 +28,13 @@
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
-          <h4 class="modal-title"><b> </b></h4>
+          <h4 class="modal-title"></h4>
         </div>
         <div class="modal-body">
-        </div> 
+          <p id="myModal1"> </p>
+          <p id="myModal2"> </p>
+
+        </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
@@ -310,11 +313,18 @@
         ],
         zoom: 8.2,
         center: new google.maps.LatLng(52.2, -3.6),
-        mapTypeControlOptions: {
-          style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
-          position: google.maps.ControlPosition.BOTTOM_LEFT,
-        },
-        mapTypeId: 'terrain'
+        mapTypeControl: false,
+
+        // mapTypeControlOptions: {
+        //   style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+        //   position: google.maps.ControlPosition.TOP_LEFT,
+        // },
+        streetViewControl: false,
+        // mapTypeId: 'terrain',
+        zoomControl: true,
+    zoomControlOptions: {
+        position: google.maps.ControlPosition.TOP_LEFT
+    },
       });
 
       // Create a <script> tag and set the data as the source.
@@ -326,11 +336,11 @@
 
     // Loop through the results array and place a marker for each
     // set of coordinates.
-    
+
     window.DSWsite_callback = function (results) {
       for (var i = 0; i < results.features.length; i++) {
         let coords = results.features[i].geometry.coordinates;
-        let name = results.features[i].properties.name 
+        let name = results.features[i].properties.name
         let description = results.features[i].properties.description
         let siteClass = results.features[i].properties.siteClass
         let webby = results.features[i].properties.website
@@ -339,22 +349,23 @@
           position: latLng,
           map: map,
           icon: telescopeIcon,
-          title: results.features[i].properties.name   
+          title: results.features[i].properties.name
         });
-       console.log("ughh" , name)
         /*Google Map Marker Click Function*/
         google.maps.event.addListener(marker, 'click', (function (marker) {
           return function () {
             /*Bootstrap Modal Pop Up Open Code*/
             $(".modal-title").text(name);
-            $(".modal-body").text("This site has the viewing class of: " + siteClass + "\n" + description + "\n" + webby );
+            $(".modal-body").text("This site has the viewing class of " + siteClass);
+            $("#myModal1").text(webby);
+
             $("#myModal").modal('show');
           }
         })(marker));
 
 
       }
-      
+
     }
 
 
@@ -364,7 +375,7 @@
 
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIIvoo3p_X28uIYfkETl7-kZkLH7p5cRA&callback=initMap"
     async defer></script>
-  
+
 </body>
 
 </html>

@@ -12,7 +12,7 @@ DSWsite_callback (
             "properties": {
                 "id": 2,
               "name": "Parc Penallta",
-              "siteClass":"Mily Way",
+              "siteClass":"Milky Way",
               "website": "http://your.caerphilly.gov.uk/countryside/country-parks/parc-penallta",
               "description": "The Parc is an ideal location to observe the night sky. Situated near the car park is a playing field size area that affords excellent views to all horizons",
               "events": "" 
@@ -27,7 +27,7 @@ DSWsite_callback (
             "properties": {
                 "id": 3,
               "name": "Daerwynno Outdoor Centre",
-              "siteClass":"Mily Way",
+              "siteClass":"Milky Way",
               "website": "http://www.daerwynno.org",
               "description": "The site is located between the Rhondda and Cynon valleys and sits within a natural bowl. The site provides a wide panorama with slightly obscured views below 15 degrees.",
               "events": "" 
@@ -42,7 +42,7 @@ DSWsite_callback (
             "properties": {
                 "id": 4,
               "name": "Garn Eiddel Car Park",
-              "siteClass":"Mily Way",
+              "siteClass":"Milky Way",
               "website": "https://www.facebook.com/darkskywales/",
               "description": "Garn Eiddel Car Park is located on top of Maerdy mountain. The site provides an excellent panorama. Some slight light pollution to southerly aspect",
               "events": "" 
@@ -57,7 +57,7 @@ DSWsite_callback (
             "properties": {
                 "id": 5,
               "name": "Bwlch Mountain Lay-by",
-              "siteClass":"Mily Way",
+              "siteClass":"Milky Way",
               "website": "https://www.facebook.com/darkskywales/",
               "description": "A lay-by located on top of the Bwlch mountain the site provides uninterrupted views to the South, East and West",
               "events": "" 
@@ -72,7 +72,7 @@ DSWsite_callback (
             "properties": {
               "id": 6,
               "name": "Hendre Mynydd Car Park",
-              "siteClass":"Mily Way",
+              "siteClass":"Milky Way",
               "website": "https://www.facebook.com/darkskywales/",
               "description": "Hendre Mynydd Car Park is located on top of the Rhigos mountain the site provides uninterrupted views to the South, East and West.",
               "events": "" 
@@ -87,7 +87,7 @@ DSWsite_callback (
             "properties": {
               "id": 7,
               "name": "Glyncorrwg Ponds",
-              "siteClass":"Mily Way",
+              "siteClass":"Milky Way",
               "website": "http://glyncorrwgpondsvisitorcentre.co.uk",
               "description": "The ponds are situated at the beginning of the Glyncorrwg village and provide splendid unobstructed views of the night sky",
               "events": "" 
@@ -102,7 +102,7 @@ DSWsite_callback (
             "properties": {
               "id": 8,
               "name": "Red Lion Pub Penderyn",
-              "siteClass":"Mily Way",
+              "siteClass":"Milky Way",
               "website": "http://www.redlionpenderyn.com/",
               "description": "The Red Lion Pub is located near the village of Penderyn within the Brecon Beacons National Park",
               "events": "" 
@@ -117,7 +117,7 @@ DSWsite_callback (
             "properties": {
               "id": 9,
               "name": "Gerazim Chapel",
-              "siteClass":"Mily Way",
+              "siteClass":"Milky Way",
               "website": "https://www.facebook.com/darkskywales/",
               "description": "The Chapel is located on top of a hill near the village of Cwmcerdenin and provides amazing unobstructed views of all horizons.",
               "events": "" 
@@ -132,7 +132,7 @@ DSWsite_callback (
             "properties": {
               "id": 10,
               "name": "Plas Dolygaer",
-              "siteClass":"Mily Way",
+              "siteClass":"Milky Way",
               "website": "https://www.parkwoodoutdoors.co.uk/centre/dolygaer",
               "description": "Group Indoor Accommodation Centre and campsite located in the Brecon Beacons Reserve that is not directly overlooked by any street lights.",
               "events": "" 
@@ -147,7 +147,7 @@ DSWsite_callback (
             "properties": {
               "id": 11,
               "name": "Trecastle Usk Reservoir Car Park",
-              "siteClass":"Mily Way",
+              "siteClass":"Milky Way",
               "website": "https://www.facebook.com/darkskywales/",
               "description": "Remote location in the heart of the International Dark Sky Reserve, with excellent access and within short distance of Trecastle..",
               "events": "" 
@@ -162,7 +162,7 @@ DSWsite_callback (
             "properties": {
               "id": 12,
               "name": "Crai Village",
-              "siteClass":"Mily Way",
+              "siteClass":"Milky Way",
               "website": "https://www.facebook.com/darkskywales/",
               "description": "The village is set in a rural location and offers unhindered views of all horizons with minamal localised lighting.",
               "events": "" 
@@ -237,7 +237,7 @@ DSWsite_callback (
             "properties": {
               "id": 17,
               "name": "National Botanical Garden of Wales",
-              "siteClass":"Mily Way",
+              "siteClass":"Milky Way",
               "website": "http://www.gardenofwales.org.uk",
               "description": "The National Botanic Garden of Wales is set on historic parkland, dating back around 400 years.",
               "events": "" 
@@ -252,7 +252,7 @@ DSWsite_callback (
             "properties": {
               "id": 18,
               "name": "Skrinkle Haven car park",
-              "siteClass":"Mily Way",
+              "siteClass":"Milky Way",
               "website": "http://www.pembrokeshirecoast.org.uk",
               "description": "The National Park Authority parking area at Skrinkle Haven is an unlit cliff-top site with very good visibility in all directions.",
               "events": "" 
@@ -267,7 +267,7 @@ DSWsite_callback (
             "properties": {
               "id": 19,
               "name": "Broad Haven South Carpark",
-              "siteClass":"Mily Way",
+              "siteClass":"Milky Way",
               "website": "http://www.nationaltrust.org.uk/stackpole-centre",
               "description": "Uncluttered, stunning cliff top location at the heart of the National Park, offering 360 degree panorama of the night sky.",
               "events": "" 
@@ -282,7 +282,7 @@ DSWsite_callback (
             "properties": {
               "id": 20,
               "name": "Kete National Trust car park",
-              "siteClass":"Mily Way",
+              "siteClass":"Milky Way",
               "website": "www.nationaltrust.org.uk/marloes-sands",
               "description": "Large car park with firm surface and superb uninterrupted views to the South, West and North completely free from skyglow",
               "events": "" 
@@ -297,7 +297,7 @@ DSWsite_callback (
             "properties": {
               "id": 21,
               "name": "Martins Haven National Trust car park",
-              "siteClass":"Mily Way",
+              "siteClass":"Milky Way",
               "website": "www.nationaltrust.org.uk/marloes-sands",
               "description": "A large car park with good all round visibility, enjoying very dark skies with little local light pollution",
               "events": "" 
@@ -312,7 +312,7 @@ DSWsite_callback (
             "properties": {
               "id": 22,
               "name": "Newgale Beach (mid/southern end)",
-              "siteClass":"Mily Way",
+              "siteClass":"Milky Way",
               "website": "https://goo.gl/maps/LNltA",
               "description": "Newgale Sands is a long WSW-facing beach. The recommended location is on the beach, off the Pebbles car park, however the beach is unsuitable for less able users; the carpark affords an alternative viewing site",
               "events": "" 
@@ -327,7 +327,7 @@ DSWsite_callback (
             "properties": {
               "id": 23,
               "name": "Garn Fawr National Trust car park",
-              "siteClass":"Mily Way",
+              "siteClass":"Milky Way",
               "website": "www.nationaltrust.org.uk/strumble-head-cardigan",
               "description": "A small car park amongst rocky outcrops with good views of sky and little local light pollution.",
               "events": "" 
@@ -342,7 +342,7 @@ DSWsite_callback (
             "properties": {
               "id": 24,
               "name": "Sychpant PCNPA picnic site",
-              "siteClass":"Mily Way",
+              "siteClass":"Milky Way",
               "website": "http://www.pembrokeshirecoast.org.uk",
               "description": "Very good dark skies with little light pollution in a valley location",
               "events": "" 
@@ -357,7 +357,7 @@ DSWsite_callback (
             "properties": {
               "id": 25,
               "name": "Poppit Sands beach serviced by Poppit Sands PCNPA car park",
-              "siteClass":"Mily Way",
+              "siteClass":"Milky Way",
               "website": "https://goo.gl/maps/pUwNA",
               "description": "The least restricted views of the sky from Poppit Sands are from the beach (soft sand) accessed by crossing a quiet road to a wooden boardwalk immediately west of the RNLI lifeboat station",
               "events": "" 
@@ -372,7 +372,7 @@ DSWsite_callback (
             "properties": {
               "id": 26,
               "name": "Penbryn, Ceredigio",
-              "siteClass":"Mily Way",
+              "siteClass":"Milky Way",
               "website": "http://www.nationaltrust.org.uk/llanerchaeron",
               "description": "National Trust car park next to beach.",
               "events": "" 
@@ -387,7 +387,7 @@ DSWsite_callback (
             "properties": {
               "id": 27,
               "name": "Llanerchaeron",
-              "siteClass":"Mily Way",
+              "siteClass":"Milky Way",
               "website": "http://www.nationaltrust.org.uk/llanerchaeron",
               "description": "National Trust car park which has no street lighting.",
               "events": "" 
@@ -402,7 +402,7 @@ DSWsite_callback (
             "properties": {
               "id": 28,
               "name": "Tyn Cornel Hostel",
-              "siteClass":"Mily Way",
+              "siteClass":"Milky Way",
               "website": "http://www.yha.org.uk",
               "description": "YHA in a Old stonebuilt farmhouse with parking",
               "events": "" 
@@ -417,7 +417,7 @@ DSWsite_callback (
             "properties": {
               "id": 29,
               "name": "Dolgoch Hostel",
-              "siteClass":"Mily Way",
+              "siteClass":"Milky Way",
               "website": "http://www.yha.org.uk",
               "description": "YHA in a Old stonebuilt farmhouse with parking",
               "events": "" 
@@ -477,7 +477,7 @@ DSWsite_callback (
             "properties": {
               "id": 33,
               "name": "Glan Morfa Lodge and Wildlife Experience",
-              "siteClass":"Mily Way",
+              "siteClass":"Milky Way",
               "website": "https://www.holidaycottages-anglesey.com/",
               "description": "",
               "events": "" 

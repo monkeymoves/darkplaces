@@ -48,6 +48,9 @@
 
 
     let telescopeIcon = src = './img/smalltelescope.png'
+    let binoIcon = src = './img/binos.png'
+    let reserveIcon = src = './img/reserve.png'
+
 
     var map;
     function initMap() {
@@ -330,7 +333,16 @@
       script.src = 'data.js';
       document.getElementsByTagName('head')[0].appendChild(script);
     }
-
+    
+    function siteElement(x){
+      let icon = telescopeIcon
+      if (x == 'Orion'){
+        icon = binoIcon
+      } else if (x == "International Dark Sky Reserve"){
+        icon = reserveIcon
+      }
+      return icon
+    }
 
     // Loop through the results array and place a marker for each
     // set of coordinates.
@@ -342,11 +354,14 @@
         let description = results.features[i].properties.description
         let siteClass = results.features[i].properties.siteClass
         let webby = results.features[i].properties.website
+
+
+
         let latLng = new google.maps.LatLng(coords[1], coords[0]);
         let marker = new google.maps.Marker({
           position: latLng,
           map: map,
-          icon: telescopeIcon,
+          icon: siteElement(results.features[i].properties.siteClass),
           title: results.features[i].properties.name
         });
         /*Google Map Marker Click Function*/
